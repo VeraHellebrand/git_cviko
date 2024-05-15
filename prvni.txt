@@ -1,0 +1,29 @@
+1. Tvorba nové větve:
+Vytvoření nové větve: Příkaz git checkout -b nazev-vetve vytvoří novou větev a přepne se na ni. nazev-vetve je jméno nové větve.
+
+Push nové větve na GitHub: Pokud chcete novou větev sdílet s ostatními, použijte příkaz git push origin nazev-vetve. Tím se nová větev pushne na vzdálený repozitář na GitHubu.
+
+2. Práce s větvemi:
+Přepnutí mezi větvemi: Příkaz git checkout nazev-vetve vám umožňuje přepínat mezi existujícími větvemi v repozitáři.
+
+Sledování stavu větví: Příkaz git branch zobrazí seznam všech lokálních větví ve vašem repozitáři a označí aktuálně aktivní větev.
+
+3. Sloučení větví:
+Merge větví: Příkaz git merge zdrojova-vetev sloučí změny z větve zdrojova-vetev do aktuální větve, ve které se právě nacházíte.
+
+Pull Request (na GitHubu): Pull Request (nebo PR) je žádost o sloučení změn z jedné větve do druhé na GitHubu. To umožňuje spolupracovníkům recenzi a diskusi o změnách před sloučením.
+
+4. Pravidelné aktualizace:
+Aktualizace lokálního repozitáře: Příkaz git pull origin hlavni-vetev stáhne změny z vzdáleného repozitáře do vašeho lokálního repozitáře.
+5. Označení významných bodů:
+Tagy: Tagy jsou označení pro konkrétní body ve vašem historii commitů. Pomáhají označit vydání (například verze x.y) nebo jiné významné body ve vývoji.
+6. Správa konfliktů:
+Konflikty při mergování: Konflikty mohou vzniknout, když Git nemůže automaticky sloučit změny z různých větví. Jejich řešení zahrnuje ruční úpravu souborů a následné provedení commitu.
+7. Pravidelné zálohování:
+Pravidelné commitování: Časté a výstižné commity umožňují snadnější sledování změn a rychlejší návrat k předchozím verzím kódu v případě potřeby.
+8. Komunikace v týmu:
+Dokumentace a komentáře kódu: Komentáře ve vašem kódu a popisky commitů pomáhají ostatním v týmu porozumět provedeným změnám.
+
+Code reviews: Pravidelná kontrola kódu ostatními členy týmu pomáhá odhalit chyby a zlepšit kvalitu kódu.
+
+Správné používání těchto technik může zefektivnit práci na projektech, usnadnit spolupráci v týmu a zlepšit kvalitu kódu.
